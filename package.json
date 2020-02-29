@@ -1,0 +1,35 @@
+{
+  "name": "react-crud-dynamic-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyogkw/react-crud-dynamic-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyogkw/react-crud-dynamic-template/issues"
+  },
+  "homepage": "https://github.com/suyogkw/react-crud-dynamic-template#readme",
+  "dependencies": {
+    "@babel/cli": "^7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "validator": "^12.2.0",
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
